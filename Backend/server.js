@@ -37,7 +37,7 @@ app.use(
 // handling cors errors
 app.use((req, res, next) => {
   res.header("Access-Control-Allow-Origin", "*");
-  res.header("Access-Control-Allow-Headers: Content-Type, Custom-Header");
+  res.header("Access-Control-Allow-Headers", "Content-Type, Authorization, Custom-Header");
   next();
 });
 

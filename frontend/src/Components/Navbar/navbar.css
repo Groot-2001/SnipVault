@@ -49,6 +49,11 @@
   border-radius: 1em;
   padding: 0.5em;
   box-shadow: 5px 10px #888888;
+  text-decoration: none;
+  border: none;
+  background: transparent;
+  font: inherit;
+  cursor: pointer;
 }
 
 /* hover effects */
