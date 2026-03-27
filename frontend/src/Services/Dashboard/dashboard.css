@@ -1,6 +1,7 @@
 .dashboard_container {
-    height: 100vh;
-    width: 100vw;
+    min-height: 100vh;
+    width: 100%;
+    padding-bottom: 2rem;
 }
 
 .editor_container {
@@ -29,7 +30,7 @@
 
 .btn-controls {
     text-align: center;
-    margin-top: 3rem;
+    margin-top: 1rem;
 }
 
 .paste-btn {
@@ -48,4 +49,49 @@
 
 .paste-btn:hover {
     box-shadow: 5px 5px 0px 3px rgb(43, 97, 235);
+}
+
+.feedback {
+    text-align: center;
+    margin: 0.5rem;
+}
+
+.feedback.error {
+    color: #cc0000;
+}
+
+.paste_list {
+    max-width: 70%;
+    margin: 2rem auto;
+    text-align: left;
+}
+
+.paste_card {
+    background: #f7fbff;
+    border: 1px solid #d4e8f7;
+    border-radius: 10px;
+    padding: 1rem;
+    margin-bottom: 0.8rem;
+}
+
+.paste_card pre {
+    white-space: pre-wrap;
+    word-break: break-word;
+    margin: 0;
+}
+
+.paste_card_footer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0.8rem;
+    align-items: center;
+}
+
+.paste_card_footer button {
+    background: #fff;
+    border: 1px solid #cc0000;
+    color: #cc0000;
+    border-radius: 6px;
+    padding: 0.3rem 0.6rem;
+    cursor: pointer;
 }

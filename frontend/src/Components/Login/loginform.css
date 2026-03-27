@@ -104,3 +104,4 @@ input {
     background-color: #4CAF50;
     color: white;
 }
+.error_message { color: #cc0000; margin-bottom: 10px; font-weight: 600; }

@@ -10,7 +10,8 @@ const UserSchema = new Schema(
       type: String,
       required: true,
       unique: true,
-      minlength: [8, "Username must have atmost 8 characters."],
+      minlength: [5, "Username must have at least 5 characters."],
+      maxlength: [8, "Username must have at most 8 characters."],
     },
     email: {
       type: String,
